@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+
+    <title>Get your Insurance</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>Insurance Contract </h1>
+    <p>You have <strong class="balance">loading...</strong> META</p>
+
+    <h1>add a product</h1>
+
+    <label for="productName">productName:</label>
+    <input type="text" id="productName" placeholder="e.g. product name" />
+    
+    <label for="insOwner">your address</label>
+    <input
+      type="text"
+      id="price"
+      placeholder="e.g. 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+
+    <button onclick="App.sendCoin()">add product</button>
+
+    <p id="status"></p>
+    <p>
+
+      <strong>Hint:</strong> open the browser developer console to view any
+      errors and warnings.
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>
