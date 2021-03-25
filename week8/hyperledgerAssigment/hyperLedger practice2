@@ -1,0 +1,6 @@
+root@ubuntu-s-1vcpu-1gb-nyc1-01:~/fabric/fabric-samples/test-network# echo $CORE_PEER_MSPCONFIGPATH
+/root/fabric/fabric-samples/test-network/organizations/peerOrganizations/org2.example.com/users/Admin@org2.example.com/msp
+root@ubuntu-s-1vcpu-1gb-nyc1-01:~/fabric/fabric-samples/test-network# echo $CORE_PEER_ADDRESS
+localhost:9051
+root@ubuntu-s-1vcpu-1gb-nyc1-01:~/fabric/fabric-samples/test-network# echo $CORE_PEER_LOCALMSPID
+Org2MSP
